@@ -1,0 +1,71 @@
+name: practice10
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.5
+  carousel_slider: ^5.0.0
+  intl: ^0.19.0
+  smooth_page_indicator: ^1.2.0+3
+  shimmer: ^3.0.0
+  geocoding: ^2.0.5
+  flutter_bounceable: ^1.1.0
+  path_provider: ^2.1.5
+  geolocator: ^13.0.2
+  url_launcher: ^6.0.12
+  shared_preferences: ^2.3.4
+  sqflite: ^2.4.1
+  badges: ^3.1.2
+  flutter_icon_snackbar: ^1.2.1
+  file_helper: ^0.0.3
+  google_maps_flutter: ^2.2.6
+  provider: ^6.0.0
+  motion_tab_bar: ^2.0.4
+  cached_network_image: ^3.1.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.3.2
+  lottie: ^3.3.1
+  animated_splash_screen: ^1.3.0
+  http: ^1.3.0
+  image_picker: ^1.1.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/debit/icon.jpg"  # Path to your JPG file
+  adaptive_icon_background: "#ffffff"  # Optional for Android adaptive icons
+  adaptive_icon_foreground: "assets/debit/icon.jpg"  # Optional for adaptive icons
+
+flutter_native_splash:
+  color: "#ffffff"  # Background color
+  image: assets/debit/splash.jpg  # Path to your splash screen image
+  android: true
+  ios: true
+
+  
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/debit/
+    - assets/
+    - assets/setttingImage/
+  fonts:
+    - family: Koulen
+      fonts:
+        - asset: font/Koulen-Regular.ttf
+      
+
+
