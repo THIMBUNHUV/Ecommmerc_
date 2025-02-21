@@ -1,3 +1,3 @@
-# practice10
+# project
 
 A new Flutter project.
